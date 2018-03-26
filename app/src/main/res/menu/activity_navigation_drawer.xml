@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_company"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Company Profile"/>
+        <item
+            android:id="@+id/nav_valve_automation"
+            android:icon="@drawable/ic_business_black_24dp"
+            android:title="Valve Automation"/>
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
+            android:title="Contact Us"/>
+
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/inq"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Inquery"/>
+            <item
+                android:id="@+id/call"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="Call"/>
+            <item
+                android:id="@+id/mail"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Email"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sealsys.Inquiry"
+    android:background="#FCE4EC">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_margin="25dp"
+        >
+
+        <!--Put form controls here-->
+
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_height="40dp"
+            android:hint="Name"
+            android:inputType="textCapWords"
+            android:layout_width="fill_parent"
+
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/comp_name"
+            android:layout_height="40dp"
+            android:hint="Company name"
+            android:inputType="textCapWords"
+            android:layout_width="fill_parent"
+
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/ph_no"
+            android:layout_height="40dp"
+            android:hint="Contact Number"
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent"
+
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"
+            >
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/comments"
+            android:layout_height="wrap_content"
+            android:hint="Your Comments"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:layout_width="fill_parent"
+            android:gravity="top"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp">
+        </EditText>
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Submit "
+            android:textSize="22dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#BDBDBD"
+            android:gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

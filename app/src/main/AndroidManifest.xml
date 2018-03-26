@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.android.sealsys">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ssc_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".products">
+        </activity>
+        <activity android:name=".ValveAutomation_Activity">
+        </activity>
+        <activity
+            android:name=".RotatoryActuature_Activity"
+            android:label="Valve Automation">
+        </activity>
+        <activity
+            android:name=".Actuated_ball_value"
+            android:label="Valve Automation">
+        </activity>
+        <activity
+            android:name=".actuated_ball_valve_screwed"
+            android:label="Valve Automation">
+        </activity>
+        <activity
+            android:name=".Actuated_butteryfly_valve"
+            android:label="Valve Automation">
+        </activity>
+        <activity
+            android:name=".Actuated_knife_gate_valve"
+            android:label="Valve Automation">
+        </activity>
+        <activity
+            android:name=".pneumatic_control_valve"
+            android:label="Valve Automation">
+        </activity>
+        <activity
+            android:name=".gridView"
+            android:label="Valve Automation">
+        </activity>
+        <activity
+            android:name=".grid_view_layout"
+            android:label="@string/title_activity_navigation">
+        </activity>
+        <activity
+            android:name=".Navigation"
+            android:label="Sealing System Corporation"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Inquiry"
+            android:label="Inquery">
+        </activity>
+    </application>
+
+</manifest>

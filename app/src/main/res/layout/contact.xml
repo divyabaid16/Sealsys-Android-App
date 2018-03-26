@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sealsys.products"
+    android:background="#FFF8E1">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+                android:layout_margin="20dp"
+              tools:layout_editor_absoluteY="8dp"
+              tools:layout_editor_absoluteX="8dp">
+    <TextView
+        android:id="@+id/add_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS"
+        android:textSize="25sp"
+        android:layout_marginLeft="50sp"
+        android:textStyle="bold"
+        android:textColor="#880E4F"/>
+
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:id="@+id/address"
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="18dp"
+        android:textColor="#3E2723"
+        android:text="Gujarat, India"/>
+
+    <ImageView
+        android:id="@+id/image_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_location_on_black_24dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-15dp"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/ph_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHONE NO."
+        android:textSize="25sp"
+        android:layout_marginLeft="50sp"
+        android:textStyle="bold"
+        android:textColor="#880E4F"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20sp">
+
+    <ImageView
+        android:id="@+id/img_ph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_call_black_24dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="(L): 0265-2422689"
+        android:textColor="#3E2723"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp">
+
+        <ImageView
+            android:id="@+id/img_ph1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+
+            />
+
+        <TextView
+       android:layout_marginLeft="20dp"
+        android:id="@+id/phone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:text="(M): +91"
+        android:layout_marginBottom="30sp"
+       android:textColor="#3E2723"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/email_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:textSize="25sp"
+        android:layout_marginLeft="50sp"
+        android:textStyle="bold"
+        android:textColor="#880E4F"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp">
+
+        <ImageView
+            android:id="@+id/img_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_email_black_24dp"
+
+            />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:text="mymyemail@gmail.com"
+            android:layout_marginBottom="30sp"
+            android:textColor="#3E2723"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/website_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEBSITE"
+        android:textSize="25sp"
+        android:layout_marginLeft="50sp"
+        android:textStyle="bold"
+        android:textColor="#880E4F"/>
+
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:id="@+id/awebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:text="http://google.com"
+        android:textColor="#3E2723"/>
+
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
