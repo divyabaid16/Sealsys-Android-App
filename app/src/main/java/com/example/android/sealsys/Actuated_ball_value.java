@@ -16,7 +16,7 @@ public class Actuated_ball_value extends AppCompatActivity {
 
 
 
-
+/* */
 
         final ArrayList<listView> item=new ArrayList<listView>();
         item.add(new listView("Double Acting:","Air to Open. Air to Close\n" +
